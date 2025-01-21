@@ -1,0 +1,2 @@
+cd /c/Users/HP/OneDrive/Desktop/PranCode/Cg_lab
+g++ line_dda.c -o lined -lopengl32 -lglu32 -lfreeglut -lglew32
