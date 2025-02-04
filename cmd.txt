@@ -1,3 +1,3 @@
 #Command for compilation of code
 cd /c/Users/HP/OneDrive/Desktop/PranCode/Cg_lab
-g++ circle_midpt.c -o lined -lopengl32 -lglu32 -lfreeglut -lglew32
+g++ ellipse_midpt.c -o ellipse -lopengl32 -lglu32 -lfreeglut -lglew32

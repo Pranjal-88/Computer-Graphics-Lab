@@ -31,10 +31,10 @@ void draw_circle(float x1, float y1, float r) {
         glVertex2f(x1-y,y1-x);
 
         if (P<0)
-            P+=2*x+steps;
+            P+=2*x+3*steps;
         else {
             y-=steps;
-            P+=2*(x-y)+steps;
+            P+=2*(x-y)+5*steps;
         }
         
         x+=steps;
